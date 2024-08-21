@@ -16,8 +16,7 @@ public class Controladora {
 
     public Controladora(ControladoraPersistencia controlPersis, Utility utility) {
         this.controlPersis = controlPersis;
-        this.utility = utility;
-        
+        this.utility = utility;        
     }
 
     public List<Usuario> getUsersList() {
